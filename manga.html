@@ -1,0 +1,198 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Cao Le Hoang Minh
+ID: s3979628
+Acknowledgement: 
+-Logo,images and product descriptions from Fahasa.com
+-Social media icons from Font Awsome
+-Breadcrumbs icons from Heroicons
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore Webiste</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li><a href="index.html"><strong>Homepage</strong></a></li>
+            <li><a href="foreignbook.html"><strong>Foreign Books</strong></a></li>
+            <li><a href="manga.html"></manga><strong>Manga-Comic</strong></a></li>
+            <li><a href="classbook.html"><strong>Class-Book</strong></a></li>
+            <li><a href="contactus.html"><strong>Contact Us</strong></a></li>
+        </ul>
+        <img type="button" onclick="location.href='index.html'" class="logo"
+            src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/fahasa-logo.png" width="100"
+            alt="fahasa banner">
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a class="navbar__container-item" href="index.html"><strong>Homepage</strong></a>
+                <a class="navbar__container-item" href="foreignbook.html"><strong>Foreign Books</strong></a>
+                <a class="navbar__container-item" href="manga.html"></manga><strong>Manga-Comic</strong>
+                </a>
+                <a class="navbar__container-item" href="classbook.html"><strong>Class-Book</strong></a>
+                <a class="navbar__container-item" href="contactus.html"><strong>Contact Us</strong></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="breadcrumbs">
+            <ul>
+                <li><a href="index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                        </svg>
+
+                    </a></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                    </svg>
+                </li>
+                <li>
+                    <a href="manga.html">Manga-Comic</a>
+                </li>
+            </ul>
+        </div>
+        <h2 class="category-heading">Manga</h2>
+        <div class="category">
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/b/l/blt4.jpg" alt="BlueLock-4">
+                <h3>BlueLock 4 with postcard</h3>
+                <p>35 000VND</p>
+                <button type="button" onclick="location.href='item1.html'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/8/9/8934974186038.png" alt="Kingdom-46">
+                <h3>Kingdom 46 with postcard</h3>
+                <p>45 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/8/9/8934974186199.png" alt="FireFore-2">
+                <h3>Fire Force 2 with postcard</h3>
+                <p>43 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/n/x/nxbtre_full_13022023_110235.jpg"
+                    alt="Chainsawman-9">
+                <h3>Chainsawman 9</h3>
+                <p>43000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+        </div>
+        <h2 class="category-heading">Comics
+        </h2>
+        <div class="category">
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/1/8/18edfaaaf62c294fa6573a251095bf25.jpg"
+                    alt="Comic Strip - Tập 1">
+                <h3>Comic Strip - Tập 1</h3>
+                <p>29 000 VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/9/7/9781779513625.jpg"
+                    alt="DC Comics: Girls Unite! Box Set ">
+                <h3>DC Comics: Girls Unite! Box Set
+                </h3>
+                <p>638 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/9/7/9781338712766.jpg" alt="Cat Kid Comic Club #1
+          ">
+                <h3>Cat Kid Comic Club #1
+                </h3>
+                <p>224 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/9/7/9784088914947.jpg" alt="新サクラ大戦 The Comic 2 
+          ">
+                <h3>新サクラ大戦 The Comic 2
+                </h3>
+                <p>177 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+        </div>
+        <h2 class="category-heading">Light Novel
+        </h2>
+        <div class="category">
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/k/_/k_-sinh-tr_ng-bi_t-y_u-ln_b_a-1.jpg"
+                    alt="Ký Sinh Trùng Biết Yêu">
+                <h3>Ký Sinh Trùng Biết Yêu</h3>
+                <p>102 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/t/a/tam-biet-phao-hoa---bia1.jpg"
+                    alt="Tạm Biệt Pháo Hoa">
+                <h3>Tạm Biệt Pháo Hoa</h3>
+                <p>50 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/8/9/8935250706582.jpg"
+                    alt=" 5 Centimet Trên Giây ">
+                <h3> 5 Centimet Trên Giây </h3>
+                <p>48 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/8/9/8936048123468_1_1.jpg"
+                    alt=" Khu Vườn Ngôn Từ (Tái Bản 2022) ">
+                <h3> Khu Vườn Ngôn Từ (Tái Bản 2022) </h3>
+                <p>96 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+            <nav class="footer2">
+                <ul>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms</a></li>
+                    <li><a href="">Copyright</a></li>
+                    <li><a href="contactus.html">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footerbottom">
+            <p>Copyright &copy;2023; Desinged by <span class="desinger">Cao Le Hoang Minh</span></p>
+        </div>
+        </nav>
+    </footer>
+</body>
+
+</html>

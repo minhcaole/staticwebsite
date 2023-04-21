@@ -1,0 +1,148 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Cao Le Hoang Minh
+ID: s3979628
+Acknowledgement: 
+-Logo,images and product descriptions from Fahasa.com
+-Social media icons from Font Awsome
+-Breadcrumbs icons from Heroicons
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore Webiste</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li><a href="index.html"><strong>Homepage</strong></a></li>
+            <li><a href="foreignbook.html"><strong>Foreign Books</strong></a></li>
+            <li><a href="manga.html"></manga><strong>Manga-Comic</strong></a></li>
+            <li><a href="classbook.html"><strong>Class-Book</strong></a></li>
+            <li><a href="contactus.html"><strong>Contact Us</strong></a></li>
+        </ul>
+        <img type="button" onclick="location.href='index.html'" class="logo"
+            src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/fahasa-logo.png" width="100"
+            alt="fahasa banner">
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a class="navbar__container-item" href="index.html"><strong>Homepage</strong></a>
+                <a class="navbar__container-item" href="foreignbook.html"><strong>Foreign Books</strong></a>
+                <a class="navbar__container-item" href="manga.html"></manga><strong>Manga-Comic</strong>
+                </a>
+                <a class="navbar__container-item" href="classbook.html"><strong>Class-Book</strong></a>
+                <a class="navbar__container-item" href="contactus.html"><strong>Contact Us</strong></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <fieldset width="200">
+                <form action="" method="GET">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="username" required>
+                    </div>
+                    <div>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" placeholder="at least 6 characters"
+                            required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="age">Age:</label>
+                        <input type="number" name="age" id="age" required min="1" max="190" step="1">
+                    </div>
+                    <div>
+                        <label for="date">Birthdate:</label>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div>
+                        <label for="contact peference">Contact peference:</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="byphone" id="cb1">
+                        <label for="byphone">By phone</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="byemail" id="cb2">
+                        <label for="byphone">By phone</label>
+                    </div>
+                    <div>
+                        <label for="receive weekly newslette">Receive weekly newslette:</label>
+                        <div>
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="option" id="option">
+                        </div>
+                        <div>
+                            <label for="no">No</label>
+                            <input type="radio" name="option" id="option">
+                        </div>
+                    </div>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </form>
+            </fieldset>
+            <fieldset>
+                <form action="" method="get">
+                    <div>
+                        <label for="cantact purpose">Contact Purpose:</label>
+                        <select name="purepose" id="purpose">
+                            <option value="sell">I want to sell books</option>
+                            <option value="buy">I want to buy books</option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="note">Notes:</label>
+                        <textarea name="note" id="note" cols="10" rows="5"></textarea>
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+            <nav class="footer2">
+                <ul>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms</a></li>
+                    <li><a href="">Copyright</a></li>
+                    <li><a href="contactus.html">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footerbottom">
+            <p>Copyright &copy;2023; Desinged by <span class="desinger">Cao Le Hoang Minh</span></p>
+        </div>
+        </nav>
+    </footer>
+</body>
+
+</html>

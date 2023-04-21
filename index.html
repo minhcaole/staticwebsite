@@ -1,0 +1,196 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Cao Le Hoang Minh
+ID: s3979628
+Acknowledgement: 
+-Logo,images and product descriptions from Fahasa.com
+-Social media icons from Font Awsome
+-Breadcrumbs icons from Heroicons
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookstore Webiste</title>
+  <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+      <div class='menu-button'></div>
+    </label>
+    <ul class="menu">
+      <li><a href="index.html"><strong>Homepage</strong></a></li>
+      <li><a href="foreignbook.html"><strong>Foreign Books</strong></a></li>
+      <li><a href="manga.html"></manga><strong>Manga-Comic</strong></a></li>
+      <li><a href="classbook.html"><strong>Class-Book</strong></a></li>
+      <li><a href="contactus.html"><strong>Contact Us</strong></a></li>
+    </ul>
+    <img type="button" onclick="location.href='index.html'" class="logo"
+      src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/fahasa-logo.png" width="100"
+      alt="fahasa banner">
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a class="navbar__container-item" href="index.html"><strong>Homepage</strong></a>
+        <a class="navbar__container-item" href="foreignbook.html"><strong>Foreign Books</strong></a>
+        <a class="navbar__container-item" href="manga.html"></manga><strong>Manga-Comic</strong>
+        </a>
+        <a class="navbar__container-item" href="classbook.html"><strong>Class-Book</strong></a>
+        <a class="navbar__container-item" href="contactus.html"><strong>Contact Us</strong></a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <h2 class="category-heading">Manga-Comic</h2>
+    <div class="category">
+      <div class="product">
+        <img src="https://cdn0.fahasa.com/media/catalog/product/b/l/blt4.jpg" alt="BlueLock-4">
+        <h3>BlueLock 4 with postcard</h3>
+        <p>35 000VND</p>
+        <button type="button" onclick="location.href='item1.html'">MORE INFO</button>
+      </div>
+      <div class="product">
+        <img src="https://cdn0.fahasa.com/media/catalog/product/8/9/8934974186038.png" alt="Kingdom-46">
+        <h3>Kingdom 46 with postcard</h3>
+        <p>45 000VND</p>
+        <button type="button" onclick="location.href='#'">MORE INFO</button>
+      </div>
+      <div class="product">
+        <img src="https://cdn0.fahasa.com/media/catalog/product/8/9/8934974186199.png" alt="FireFore-2">
+        <h3>Fire Force 2 with postcard</h3>
+        <p>43 000VND</p>
+        <button>MORE INFO</button>
+      </div>
+      <div class="product">
+        <img src="https://cdn0.fahasa.com/media/catalog/product/n/x/nxbtre_full_13022023_110235.jpg"
+          alt="Chainsawman-9">
+        <h3>Chainsawman 9</h3>
+        <p>43000VND</p>
+        <button type="button" onclick="location.href='#'">MORE INFO</button>
+      </div>
+    </div>
+    <div class="see-more">
+      <a href="manga.html">SEE MORE</a>
+    </div>
+    <h2 class="category-heading">Foreign Books
+    </h2>
+    <div class="category">
+      <div class="product">
+        <img src="https://cdn0.fahasa.com/media/catalog/product/9/7/9781108430425.jpg" alt="BlueLock-4">
+        <h3>English Grammar in Use Book w Ans</h3>
+        <p>178 000VND</p>
+        <button type="button" onclick="location.href='#'">MORE INFO</button>
+      </div>
+      <div class="product">
+        <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_13050.jpg" alt="">
+        <h3>Cambridge Ielts 14 Academic With Answers (Savina)
+        </h3>
+        <p>148 000VND</p>
+        <button type="button" onclick="location.href='#'">MORE INFO</button>
+
+      </div>
+      <div class="product">
+        <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_235071.jpg" alt="Kamala's Way: An American Life
+          ">
+        <h3>Kamala's Way: An American Life
+        </h3>
+        <p>398 000VND</p>
+        <button type="button" onclick="location.href='#'">MORE INFO</button>
+
+      </div>
+      <div class="product">
+        <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_23400.jpg" alt="The Lost Symbol
+          ">
+        <h3>The Lost Symbol
+        </h3>
+        <p>178 000VND</p>
+        <button type="button" onclick="location.href='#'">MORE INFO</button>
+
+      </div>
+    </div>
+    <div class="see-more">
+      <a href="foreignbook.html">SEE MORE</a>
+    </div>
+    <h2 class="category-heading">Class-Book</h2>
+    <div class="category">
+      <div class="product">
+        <img src="https://cdn0.fahasa.com/media/catalog/product/9/7/9786040288851.jpg"
+          alt="Global Success - Tiếng Anh 6">
+        <h3>Global Success - English 6</h3>
+        <p>38 000VND</p>
+        <button type="button" onclick="location.href='#'">MORE INFO</button>
+
+      </div>
+      <div class="product">
+        <img src="https://cdn0.fahasa.com/media/catalog/product/9/7/9786043876703_1.jpg" alt="50 Đề Minh Họa 2023">
+        <h3>50 Đề Minh Họa 2023</h3>
+        <p>160 000VND</p>
+        <button type="button" onclick="location.href='#'">MORE INFO</button>
+
+      </div>
+      <div class="product">
+        <img src="https://cdn0.fahasa.com/media/catalog/product/9/7/9786043524031.jpg" alt="Tập Đánh Vần Tiếng Việt">
+        <h3>Tập Đánh Vần Tiếng Việt</h3>
+        <p>93 000VND</p>
+        <button type="button" onclick="location.href='#'">MORE INFO</button>
+
+      </div>
+      <div class="product">
+        <img src="https://cdn0.fahasa.com/media/catalog/product/9/7/9786040283863.jpg" alt=" Địa Lí 8 ">
+        <h3> Địa Lí 8 </h3>
+        <p>13 000VND</p>
+        <button type="button" onclick="location.href='#'">MORE INFO</button>
+
+      </div>
+    </div>
+    <div class="see-more">
+      <a href="classbook.html">SEE MORE</a>
+    </div>
+    <h2 class="video-heading">Our Bookstores:</h2>
+    <div class="video-container">
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TdmLphzr2WA" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="socialIcons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-google-plus"></i></a>
+      </div>
+      <nav class="footer2">
+        <ul>
+          <li><a href="">About us</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Terms</a></li>
+          <li><a href="">Copyright</a></li>
+          <li><a href="contactus.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footerbottom">
+      <p>Copyright &copy;2023; Desinged by <span class="desinger">Cao Le Hoang Minh</span></p>
+    </div>
+    </nav>
+  </footer>
+</body>
+
+</html>

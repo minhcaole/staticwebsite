@@ -1,0 +1,209 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Cao Le Hoang Minh
+ID: s3979628
+Acknowledgement: 
+-Logo,images and product descriptions from Fahasa.com
+-Social media icons from Font Awsome
+-Breadcrumbs icons from Heroicons
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore Webiste</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li><a href="index.html"><strong>Homepage</strong></a></li>
+            <li><a href="foreignbook.html"><strong>Foreign Books</strong></a></li>
+            <li><a href="manga.html"></manga><strong>Manga-Comic</strong></a></li>
+            <li><a href="classbook.html"><strong>Class-Book</strong></a></li>
+            <li><a href="contactus.html"><strong>Contact Us</strong></a></li>
+        </ul>
+        <img type="button" onclick="location.href='index.html'" class="logo"
+            src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/fahasa-logo.png" width="100"
+            alt="fahasa banner">
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a class="navbar__container-item" href="index.html"><strong>Homepage</strong></a>
+                <a class="navbar__container-item" href="foreignbook.html"><strong>Foreign Books</strong></a>
+                <a class="navbar__container-item" href="manga.html"></manga><strong>Manga-Comic</strong>
+                </a>
+                <a class="navbar__container-item" href="classbook.html"><strong>Class-Book</strong></a>
+                <a class="navbar__container-item" href="contactus.html"><strong>Contact Us</strong></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="breadcrumbs">
+            <ul>
+                <li><a href="index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                        </svg>
+
+                    </a></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                    </svg>
+                </li>
+                <li>
+                    <a href="classbook.html">Class-Book</a>
+                </li>
+                </li>
+            </ul>
+        </div>
+        <h2 class="category-heading">Vietnamese University</h2>
+        <div class="category">
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_51658.jpg"
+                    alt="Giáo Trình Điện Tử Công Suất Mạch Biến Đổi Điện Áp ">
+                <h3>Giáo Trình Điện Tử Công Suất Mạch Biến Đổi Điện Áp </h3>
+                <p>125 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/t/a/taichinhqt.jpg" alt=" Quản Trị Tài Chính ">
+                <h3> Quản Trị Tài Chính </h3>
+                <p>501 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/1/1/1127010006330.gif"
+                    alt=" Giáo Trình Thực Hành Lái Xe Cơ Bản ">
+                <h3> Giáo Trình Thực Hành Lái Xe Cơ Bản </h3>
+                <p>153 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_37874.jpg"
+                    alt=" Giáo Trình Luật Quốc Tế ">
+                <h3> Giáo Trình Luật Quốc Tế </h3>
+                <p>136 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+        </div>
+        <h2 class="category-heading">Vietnamese High School Class-Book
+        </h2>
+        <div class="category">
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/3/3/3300000027449.jpg"
+                    alt=" Sách Giáo Khoa Bộ Lớp 12">
+                <h3>Sách Giáo Khoa Bộ Lớp 12</h3>
+                <p>180 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/z/2/z2023256388526_d3d646558bb5226837b47ad0a1053f50_3.jpg"
+                    alt=" Tập Bản Đồ Địa Lí 12 (2022) ">
+                <h3> Tập Bản Đồ Địa Lí 12 (2022)</h3>
+                <p>31 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/u/n/untitled-1_166_3.jpg" alt=" Vật Lí 12 (Song Ngữ Việt - Anh) 
+          ">
+                <h3> Vật Lí 12 (Song Ngữ Việt - Anh)
+                </h3>
+                <p>75 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/9/7/9786040285607.jpg" alt="Bài Tập Ngữ Văn 11
+
+          ">
+                <h3>Bài Tập Ngữ Văn 11
+
+                </h3>
+                <p>18 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+        </div>
+        <h2 class="category-heading">Vietnamese Secondary Class-Book</h2>
+        <div class="category">
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/9/7/9786040288851.jpg"
+                    alt="Global Success - Tiếng Anh 6">
+                <h3>Global Success - English 6</h3>
+                <p>38 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/9/7/9786043876703_1.jpg"
+                    alt="50 Đề Minh Họa 2023">
+                <h3>50 Đề Minh Họa 2023</h3>
+                <p>160 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/9/7/9786043524031.jpg"
+                    alt="Tập Đánh Vần Tiếng Việt">
+                <h3>Tập Đánh Vần Tiếng Việt</h3>
+                <p>93 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/9/7/9786040283863.jpg" alt=" Địa Lí 8 ">
+                <h3> Địa Lí 8 </h3>
+                <p>13 000VND</p>
+                <button type="button" onclick="location.href='#'">MORE INFO</button>
+            </div>
+        </div>
+        <h2 class="video-heading">Our Bookstores:</h2>
+        <div class="video-container">
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TdmLphzr2WA"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+            <nav class="footer2">
+                <ul>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms</a></li>
+                    <li><a href="">Copyright</a></li>
+                    <li><a href="contactus.html">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footerbottom">
+            <p>Copyright &copy;2023; Desinged by <span class="desinger">Cao Le Hoang Minh</span></p>
+        </div>
+        </nav>
+    </footer>
+</body>
+
+</html>
