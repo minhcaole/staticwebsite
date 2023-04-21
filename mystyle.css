@@ -573,3 +573,7 @@ Acknowledgement:
  .breadcrumbs ul svg:hover {
      color: #000;
  }
+
+ iframe {
+     max-width: fit-content;
+ }
