@@ -259,7 +259,7 @@ Acknowledgement:
      transform: translateY(-3px);
  }
 
- @media (max-width:700px) {
+ @media (max-width:960px) {
      .navbar__container {
          display: none;
      }
@@ -378,7 +378,7 @@ Acknowledgement:
      margin: 0px 70px;
  }
 
- @media (max-width:700px) {
+ @media (max-width:960px) {
      .bookpage_container {
          padding-left: 5px;
          padding-right: 5px;
@@ -490,7 +490,7 @@ Acknowledgement:
      transform: rotate(-405deg);
  }
 
- @media (max-width: 700px) {
+ @media (max-width: 960px) {
      .menu-button-container {
          display: flex;
      }
@@ -574,6 +574,8 @@ Acknowledgement:
      color: #000;
  }
 
+@media (max-width: 960px){
  iframe {
      max-width: fit-content;
  }
+}
